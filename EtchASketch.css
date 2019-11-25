@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(black, gray);
+}
+#gridContainer {
+    margin: 0 auto;
+    display: grid;
+    width: 700px;
+    height: 700px;
+    border: 20px solid darkgray;
+    background-color: white;
+}
+
+#buttonBox {
+    display: block;
+    margin: 0 auto;
+    width: 700px;;
+}
+
+button {
+    display: inline;
+    text-align: center;
+    border: 1px solid lightgray;
+    background-image: linear-gradient(lightgray, white);
+    padding: 5px;
+    width: 150px;
+    border-radius: 5px;
+}
